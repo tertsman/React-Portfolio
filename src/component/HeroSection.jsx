@@ -1,6 +1,6 @@
 import { ArrowDown } from "lucide-react";
 import React from "react";
-
+import profile from"../assets/image/profile.jpeg"
 const HeroSection = () => {
   return (
     <section
@@ -8,10 +8,10 @@ const HeroSection = () => {
       className=" relative min-h-screen flex flex-col items-center justify-center px-4 "
     >
       <div className=" container max-w-4xl mx-auto text-center z-10  flex items-center justify-center flex-col">
-        <div className="profile flex items-center justify-center border-3 border-dashed  border-sky-300 shadow rounded-full w-60 mb-3 h-60 mb-3 overflow-hidden">
+        <div className="profile flex items-center justify-center border-3 border-dashed animate-bounce duration-700   border-sky-300 shadow rounded-full w-60 mb-3 h-60 mb-3 overflow-hidden">
           <div>
             <img
-              src="/public/profile.jpeg"
+              src={profile}
               alt=""
               className="w-55 h-55 object-cover rounded-full"
             />

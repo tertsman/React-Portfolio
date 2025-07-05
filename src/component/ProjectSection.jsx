@@ -1,7 +1,15 @@
 import {  ArrowRight, ExternalLink, Github } from 'lucide-react';
 import React, { useState } from 'react'
 import { cn } from '../lib/utils';
-
+import Pos from"../assets/image/POSsystem.png"
+import Ui_co from"../assets/image/ui-eco-1.jpeg"
+import Ui_co2 from"../assets/image/ui-eco-2.jpeg"
+import ecommerce_mern from"../assets/image/ecommerc_mern.png"
+import ecommerc_mern1 from"../assets/image/ecommerc_mern1.png"
+import ui_store from"../assets/image/ui-store.jpeg"
+import ui_store_admin from"../assets/image/ui-store-ad.jpeg"
+import movice_web from"../assets/image/Front-end.png"
+import travelImg from"../assets/image/travel-web.jpeg"
 
 
 
@@ -11,7 +19,7 @@ const projects = [
     title: "Full-Stack POS",
     description:
       "A complete POS system with QR-based employee attendance, expense tracking, dashboard analytics, and product/customer management.",
-    image: "/public/POSsystem.png", // change to your local image path or URL
+    image:Pos, // change to your local image path or URL
     category: "Full-Stack",
     techStack: ["React", "Node.js", "Express", "MySQL", "Ant Design"],
     demoLink: "",
@@ -23,7 +31,7 @@ const projects = [
   title: "E-Commerce Store UI",
   description:
     "A modern and responsive static UI for a basic e-commerce store homepage. Includes product listing, navigation bar, and clean layout design. No dashboard or backend functionality.",
-  image: "/public/ui-eco-1.jpeg", // replace with your actual image path
+  image: Ui_co, // replace with your actual image path
   category: "Frontend",
   techStack: ["HTML", "CSS", "JavaScript"],
   demoLink: "https://boutique-dusky.vercel.app/",
@@ -34,7 +42,7 @@ const projects = [
   title: "Product Management UI (Static)",
   description:
     "A static front-end layout for a product management page, suitable for admin-style interfaces. Built with only HTML and CSS. No dashboard logic or interactivity.",
-  image: "/public/ui-eco-2.jpeg",
+  image: Ui_co2,
   category: "Frontend",
   techStack: ["HTML", "CSS"],
   demoLink: "https://colections-alpha.vercel.app/",
@@ -46,7 +54,7 @@ const projects = [
     title: "MERN E-Commerce with Stripe (Ongoing)",
     description:
       "MERN stack e-commerce app with user authentication and Stripe payments, admin/customer separation.",
-    image: "/public/ecommerc_mern.png",
+    image: ecommerce_mern,
     category: "Ongoing",
     techStack: ["MongoDB", "Express.js", "React", "Node.js", "Stripe"],
     demoLink: "",
@@ -57,7 +65,7 @@ const projects = [
     title: "Admin Panel (MERN)",
     description:
       "MERN stack admin dashboard for managing e-commerce operations.",
-    image: "/public/ecommerc_mern1.png",
+    image: ecommerc_mern1,
     category: "Ongoing",
     techStack: ["React", "Node.js", "MongoDB","Materiel UI","cloudinary"],
     demoLink: "",
@@ -69,7 +77,7 @@ const projects = [
   title: "E-Commerce Customer UI",
   description:
     "A responsive front-end e-commerce customer interface built with HTML, CSS, and JavaScript. Includes product listings and basic interactions. (No backend connected)",
-  image: "/public/ui-store.jpeg", // update path as needed
+  image:ui_store , // update path as needed
   category: "Frontend",
   techStack: ["HTML", "CSS", "JavaScript"],
   demoLink: "https://store-customer.vercel.app/",
@@ -80,7 +88,7 @@ const projects = [
   title: "E-Commerce Admin Dashboard UI",
   description:
     "An admin dashboard UI designed for managing products and orders in an e-commerce platform. Built using HTML, CSS, and JavaScript. (Static only, no backend)",
-  image: "/public/ui-store-ad.jpeg", // update path as needed
+  image: ui_store_admin, // update path as needed
   category: "Frontend",
   techStack: ["HTML", "CSS", "JavaScript"],
   demoLink: "https://store-admin-website.vercel.app/",
@@ -91,7 +99,7 @@ const projects = [
   title: "Movice Streaming UI",
   description:
     "A modern and responsive movie streaming front-end interface built using HTML, CSS, and JavaScript. Features landing page with trending movies, hero section, CTA buttons, and clean layout. (No backend functionality)",
-  image: "/public/Front-end.png", // update with correct image path
+  image: movice_web, // update with correct image path
   category: "Frontend",
   techStack: ["HTML", "CSS", "JavaScript"],
   demoLink: "https://movice-web-frontend.vercel.app/",
@@ -102,7 +110,7 @@ const projects = [
   title: "Travel Website UI",
   description:
     "A clean and responsive travel-themed front-end landing page built with HTML, CSS, and JavaScript. Includes a hero section, destination highlights, navigation bar, and mobile-friendly layout. (No backend functionality)",
-  image: "/public/travel-web.jpeg", // update with correct image path
+  image: travelImg, // update with correct image path
   category: "Frontend",
   techStack: ["HTML", "CSS", "JavaScript"],
   demoLink: "https://travel-frontend-website.vercel.app/",

@@ -25,6 +25,17 @@
 
 
 
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-15%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: none;
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
 
 @keyframes float {
   0%,
@@ -54,6 +65,8 @@
     transform: translateY(0);
   }
 }
+
+
 
 @keyframes meteor{
   0%{
