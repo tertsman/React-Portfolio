@@ -38,7 +38,8 @@ const AboutSection = () => {
                 Get In Touch
               </a>
               <a
-                href=""
+                href="https://drive.google.com/drive/u/0/folders/1InyUZublPjMykbO8vMf1g0gX-s9x3Hkj"
+                target="_blank"
                 className=" px-6 py-2 rounded-full border border-sky-400 hover:bg-sky-500/10 transition-all duration-300 hover:scale-105 "
               >
                 Download CV

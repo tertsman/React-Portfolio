@@ -7,7 +7,7 @@ const Footer = () => {
         <div className='container  border-t-1 border-sky-500/10'>
 
       <div className='px-10 py-6 w-full flex justify-between items-center border-t-sky-100'>
-       <h2 className='text-xl font-medium text-muted-foreground '>&copy;Tert Codding All Right Reserved </h2> 
+       <h2 className='text-xl font-medium text-muted-foreground '>&copy;Tert Codding, All Right Reserved </h2> 
        <a href='#hero' className=' flex flex-col items-center animate-bounce p-3 gradient-border rounded-full '>
         
 
