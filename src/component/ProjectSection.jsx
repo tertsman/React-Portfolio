@@ -10,6 +10,7 @@ import ui_store from"../assets/image/ui-store.jpeg"
 import ui_store_admin from"../assets/image/ui-store-ad.jpeg"
 import movice_web from"../assets/image/Front-end.png"
 import travelImg from"../assets/image/travel-web.jpeg"
+import nexcent from "../assets/image/nexcentClone.jpeg"
 
 
 
@@ -21,7 +22,7 @@ const projects = [
       "A complete POS system with QR-based employee attendance, expense tracking, dashboard analytics, and product/customer management.",
     image:Pos, // change to your local image path or URL
     category: "Full-Stack",
-    techStack: ["React", "Node.js", "Express", "MySQL", "Ant Design"],
+    techStack: ["React", "Node.js", "Express", "MySQL", "Ant Design","Tailwind"],
     demoLink: "",
     githubUrl:"https://github.com/tertsman/pos-system-front"
      // add if you have
@@ -115,6 +116,17 @@ const projects = [
   techStack: ["HTML", "CSS", "JavaScript"],
   demoLink: "https://travel-frontend-website.vercel.app/",
   githubUrl: "https://github.com/tertsman/travel-frontend-website" // update if private or different
+},
+{
+  id: 10,
+  title: "Nexcent Landing Page Clone ",
+  description:
+    "A responsive landing page built with React and Tailwind CSS, replicating a modern business website layout. Features include hero banners, testimonials, service highlights, and a CTA section.",
+  image: nexcent, // update with correct image path
+  category: "Frontend",
+  techStack: ["React", "Tailwind CSS", "Vite" ,"Vercel"],
+  demoLink: "https://nexcent-ui-xvrd.vercel.app/",
+  githubUrl: "https://github.com/tertsman/NEXCENT-ui" // update if private or different
 }
 
   
