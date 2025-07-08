@@ -121,6 +121,39 @@
 body {
   @apply transition-colors m-0 p-0 border-border;
 }
+
+::-webkit-scrollbar {
+width: 7px;
+height: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+background: #9bc1d3;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: deepskyblue;
+}
+
+.about::-webkit-scrollbar {
+width: 5px;
+height: 5px;
+}
+
+.about::-webkit-scrollbar-thumb {
+background: transparent;
+}
+.about::-webkit-scrollbar-track {
+background: transparent;
+}
+
+.about:hover::-webkit-scrollbar-thumb{
+  background: deepskyblue;
+  border-radius: 10px;
+}
+
 }
 
 

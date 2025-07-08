@@ -1,4 +1,4 @@
-import { Briefcase, Code, User } from "lucide-react";
+import { Briefcase, Code, Globe, GraduationCap, User } from "lucide-react";
 import React from "react";
 
 const AboutSection = () => {
@@ -16,37 +16,39 @@ const AboutSection = () => {
             </h3>
 
             <p className="text-muted-foreground">
-              With over 12 months of experience in web development, I specialize
-              in creating responsive, accessible, and high-performance web
+              I’m a second-year student and a dedicated web developer with 1+
+              year of experience building responsive and high-performance web
               applications using modern technologies.
             </p>
             <p className="text-muted-foreground">
-              I'm passionate about crafting elegant solutions to complex
-              problems, and I'm constantly learning new technologies and
-              techniques to stay at the forefront of the ever-evolving web
-              landscape.
+              I enjoy solving real-world problems through clean and efficient
+              code, and I’m always exploring new tools and best practices to
+              stay ahead in the fast-evolving web landscape.
             </p>
-            <p className="text-muted-foreground">
-              I specialize in building responsive, accessible, and
-              high-performance web apps. Passionate about solving complex
-              problems and constantly learning new technologies to stay ahead in
-              the modern web ecosystem.
-            </p>
-
             <div className="flex flex-col md:flex-row gap-4 pt4 justify-center ">
               <a href="#contact" className="cosmic-button ">
                 Get In Touch
               </a>
-              <a
+              {/* <a
                 href="https://drive.google.com/drive/u/0/folders/1InyUZublPjMykbO8vMf1g0gX-s9x3Hkj"
                 target="_blank"
                 className=" px-6 py-2 rounded-full border border-sky-400 hover:bg-sky-500/10 transition-all duration-300 hover:scale-105 "
               >
                 Download CV
+              </a> */}
+
+              <a
+                href="https://drive.google.com/uc?export=download&id=1a0WtvM57tLhh0BclDqwICQbsvE8LjxDB"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-6 py-2 rounded-full border border-sky-400 hover:bg-sky-500/10 transition-all duration-300 hover:scale-105"
+                download
+              >
+                Download CV
               </a>
             </div>
           </div>
-          <div className=" grid grid-cols-1 gap-6 ">
+          <div className=" about grid grid-cols-1 gap-6 max-h-[500px] overflow-y-auto pr-2 ">
             <div className=" gradient-border p-6 card-hover ">
               <div className="flex items-start gap-4 ">
                 <div className="p-3 rounded-full bg-sky-500/10 ">
@@ -87,6 +89,33 @@ const AboutSection = () => {
                   <p className=" text-slate-400 ">
                     Leading project from conception to completing with agile
                     methodologies.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="gradient-border p-6 card-hover">
+              <div className="flex items-start gap-4">
+                <div className="p-3 rounded-full bg-sky-500/10">
+                  <GraduationCap className="h-6 w-6 text-sky-500" />
+                </div>
+                <div className="text-left">
+                  <h4 className="font-semibold text-lg">Education</h4>
+                  <p className="text-slate-400">
+                    Second-year student majoring in Computer Science Technology
+                    at University of Heng Samrin Thbong Khmum (2023–2027).
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="gradient-border p-6 card-hover">
+              <div className="flex items-start gap-4">
+                <div className="p-3 rounded-full bg-sky-500/10">
+                  <Globe className="h-6 w-6 text-sky-500" />
+                </div>
+                <div className="text-left">
+                  <h4 className="font-semibold text-lg">Languages</h4>
+                  <p className="text-slate-400">
+                    Khmer (Native), English (Intermediate - Reading & Writing)
                   </p>
                 </div>
               </div>
