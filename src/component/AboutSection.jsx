@@ -37,10 +37,19 @@ const AboutSection = () => {
                 Download CV
               </a> */}
 
-              <a
+              {/* <a
                 href="https://drive.google.com/file/d/1a0WtvM57tLhh0BclDqwICQbsvE8LjxDB/view?usp=drive_link"
                 target="_blank"
-                rel="noopener noreferrer"
+                
+                className="px-6 py-2 rounded-full border border-sky-400 hover:bg-sky-500/10 transition-all duration-300 hover:scale-105"
+        
+              >
+                View CV
+              </a> */}
+              <a
+                href="https://drive.google.com/file/d/1a0WtvM57tLhh0BclDqwICQbsvE8LjxDB/view?usp=sharing"
+                target="_blank"
+                
                 className="px-6 py-2 rounded-full border border-sky-400 hover:bg-sky-500/10 transition-all duration-300 hover:scale-105"
         
               >
