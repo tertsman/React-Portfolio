@@ -11,7 +11,7 @@ import ui_store_admin from"../assets/image/ui-store-ad.jpeg"
 import movice_web from"../assets/image/Front-end.png"
 import travelImg from"../assets/image/travel-web.jpeg"
 import nexcent from "../assets/image/nexcentClone.jpeg"
-
+import student from "../assets/image/student.png"
 
 
 const projects = [
@@ -127,6 +127,17 @@ const projects = [
   techStack: ["React", "Tailwind CSS", "Vite" ,"Vercel"],
   demoLink: "https://nexcent-ui-xvrd.vercel.app/",
   githubUrl: "https://github.com/tertsman/NEXCENT-ui" // update if private or different
+},
+{
+  id: 11,
+  title: "Student Management System",
+  description:
+    "A full-stack desktop application developed using C# Windows Forms and SQL Server. It includes modules for student registration, course enrollment, grading, and attendance tracking. Designed with a clean UI and OOP principles to manage student and academic data efficiently.",
+  image: student, // update with correct image path
+  category: "Full-Stack",
+  techStack: ["C#", "Windows Forms", "SQL Server"],
+  demoLink: "", // leave blank if no live demo
+  githubUrl: "https://github.com/tertsman/Student-Management-System1"
 }
 
   

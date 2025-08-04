@@ -29,26 +29,9 @@ const AboutSection = () => {
               <a href="#contact" className="cosmic-button ">
                 Get In Touch
               </a>
-              {/* <a
-                href="https://drive.google.com/drive/u/0/folders/1InyUZublPjMykbO8vMf1g0gX-s9x3Hkj"
-                target="_blank"
-                className=" px-6 py-2 rounded-full border border-sky-400 hover:bg-sky-500/10 transition-all duration-300 hover:scale-105 "
-              >
-                Download CV
-              </a> */}
-
-              {/* <a
-                href="https://drive.google.com/file/d/1a0WtvM57tLhh0BclDqwICQbsvE8LjxDB/view?usp=drive_link"
-                target="_blank"
-                
-                className="px-6 py-2 rounded-full border border-sky-400 hover:bg-sky-500/10 transition-all duration-300 hover:scale-105"
-        
-              >
-                View CV
-              </a> */}
+              
               <a
-                href="https://drive.google.com/file/d/1a0WtvM57tLhh0BclDqwICQbsvE8LjxDB/view?usp=sharing"
-                target="_blank"
+                href="/"
                 
                 className="px-6 py-2 rounded-full border border-sky-400 hover:bg-sky-500/10 transition-all duration-300 hover:scale-105"
         
